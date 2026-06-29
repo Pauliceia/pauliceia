@@ -24,6 +24,7 @@ import * as olProj from "ol/proj";
 import * as olGeom from "ol/geom";
 import * as olControl from "ol/control";
 import * as olEvents from "ol/events";
+import * as olExtent from "ol/extent";
 
 window.ol = ol;
 window.ol.layer = olLayer;
@@ -35,6 +36,7 @@ window.ol.proj = olProj;
 window.ol.geom = olGeom;
 window.ol.control = olControl;
 window.ol.events = olEvents;
+window.ol.extent = olExtent;
 
 import { sync } from "vuex-router-sync";
 import router from "@/router";
